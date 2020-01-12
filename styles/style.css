@@ -3,39 +3,68 @@ html {
   font-family: 'Open Sans', sans-serif;
 }
 
-
 h1 {
-  font-size: 60px;
-  text-align: center;
+  font-size: 40px;
+  text-align: left;
 }
 
 p, li {
-  font-size: 16px;	
+  font-size: 16px;
   line-height: 2;
   letter-spacing: 1px;
 }
 
 
 html {
-  background-color: #00539F;
+  background-color: #3385ff;
 }
 
 body {
-  width: 600px;
+  width: 800px;
   margin: 0 auto;
-  background-color: #FF9500;
+  background-color: #c2c2a3;
   padding: 0 20px 20px 20px;
   border: 5px solid black;
 }
 
 h1 {
   margin: 0;
-  padding: 20px 0;	
-  color: #00539F;
+  padding: 20px 0;
+  color: #3399ff;
   text-shadow: 3px 3px 1px black;
 }
 
 img {
   display: block;
   margin: 0 auto;
+}
+
+.header{
+  margin: 0 auto;
+  border-bottom: 3px solid black;
+}
+
+.header .judul{
+  font-size: 40px;
+  text-align: center;
+}
+
+.header ul li{
+  display: inline-block;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.container.satu{
+  background-color: #999966;
+}
+
+.footer{
+  background-color: #333;
+}
+
+.footer .copy{
+  color: #eaeaea;
+  text-align: center;
+  font-size: 13px;
 }
